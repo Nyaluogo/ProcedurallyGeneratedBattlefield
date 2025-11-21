@@ -1,0 +1,11 @@
+﻿    Rules of Engagement.
+    /// <summary>
+    /// Factions fight to control regions on the Voronoi map.
+    /// There must always be a minimum of two factions at war.
+    /// In order to control a region, a faction must defeat all opposing forces within it and form a voronoi circle around the tower at the center of the region to defend it.
+    /// Depending on the strategic cost, soldiers may prioritize attacking border regions, defending the tower, or seeking out weaker enemy forces.
+    /// There must always be a minimum number of soldiers left to protect the tower, hence attackers should be popped from the queue and the defence line redrawn.
+    /// Once a faction defence is defeated and it loses a region, the ruling faction of that region changes to the victorious faction and the remaining native attackers are thus recruited to the ruling faction.
+    /// In order to win the war, a faction must control all regions on the map.
+    /// There must always be a minimum of two factions at war.
+    /// </summary>
