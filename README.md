@@ -44,4 +44,4 @@ It looked good, I felt like I was kinda starting to understand this Procedural c
 
 After generating the territories and spawning the characters, I could then easily add more complex battle logic to the gameplay code for instance giving the soldiers ability to form strategies that depend on the state of the battle i.e. a soldier can prioritize either to defend the tower by forming a voronoi boundary around the tower, intercept an invading enemy or to attack neighboring territories.
 
-Turns out Voronoi Diagrams was the best candidate to solve my “organized warfare” problem. Check out the demo video on youtube and the full source code on github.
+Turns out Voronoi Diagrams was the best candidate to solve my “organized warfare” problem. Check out the demo video on youtube https://youtu.be/S11xGAMXTBs and the full source code here on github.
