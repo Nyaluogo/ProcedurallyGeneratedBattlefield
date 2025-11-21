@@ -1,7 +1,7 @@
 # Procedurally Generated Battlefield
 ### HOW I BUILT A PROCEDURALLY GENERATED REAL-TIME STRATEGY GAME
 
-This devlog picks up from my previous one where I built a strategy game using heap data structure. I wanted to push the concept further and add some depth and breadth to the idea. In the previous game, I had a simple map with a few towers and soldiers. This time, I wanted to create a large-scale battlefield with multiple territories, each with its own faction and characteristics.
+This devlog picks up from my previous one [https://github.com/Nyaluogo/GraphDemos] where I built a strategy game using heap data structure. I wanted to push the concept further and add some depth and breadth to the idea. In the previous game, I had a simple map with a few towers and soldiers. This time, I wanted to create a large-scale battlefield with multiple territories, each with its own faction and characteristics.
 
 First, I had to figure out how to create the territories and organize them in a robust data-structure. The first thought that came to me was a dungeon generator since I’ve previously built a similar system for a 2D roguelike.
 
@@ -12,7 +12,7 @@ However, a typical dungeon generator did not fit my needs, largely due to the ov
 
 Then I did some searching and came across an interesting topic in computational geometry called Voronoi Diagrams. According to AlgoAcademy, A Voronoi diagram is a partition of a plane (or space) based on the distance to a specific set of points (called sites or seeds). For each site, there is a corresponding region consisting of all points closer to that site than to any other.
 
-After doing some more background research on the topic, I decided to try building a procedurally generated map using Voronoi diagrams and see where how goes.
+After doing some more background research on the topic, I decided to try building a procedurally generated map using this Voronoi diagrams and see where how goes.
 
 <img width="1029" height="426" alt="Screenshot 2025-11-19 054306" src="https://github.com/user-attachments/assets/91eb960d-4c46-44ce-b4b0-448a7aa4736c" />
 <img width="1023" height="583" alt="Screenshot 2025-11-19 054243" src="https://github.com/user-attachments/assets/9ebe1761-e519-4bb5-b0d7-4125415cf9ab" />
